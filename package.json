@@ -1,0 +1,60 @@
+{
+  "name": "tailwind-nuxt-workspace",
+  "version": "1.0.0",
+  "description": "My dazzling Nuxt.js project",
+  "author": {
+    "email": "root@kurozeropb.info",
+    "name": "KurozeroPB",
+    "url": "https://kurozeropb.info"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "lint:fix": "eslint --ext .ts,.js,.vue --fix .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@nuxtjs/axios": "^5.5.1",
+    "@nuxtjs/pwa": "^3.0.0-beta.16",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.7.1",
+    "ts-node": "^8.1.0",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "devDependencies": {
+    "@nuxt/config": "^2.7.1",
+    "@nuxt/typescript": "^2.7.1",
+    "@nuxt/vue-app": "^2.7.1",
+    "@nuxtjs/eslint-config": "^0.0.1",
+    "@types/webpack-env": "^1.13.9",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "autoprefixer": "^9.5.1",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.8.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": ">=12.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": ">=2.17.2",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-nuxt": ">=0.4.3",
+    "eslint-plugin-promise": ">=4.1.1",
+    "eslint-plugin-standard": ">=4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "tailwindcss": "^1.0.1",
+    "typescript": "^3.5.0-dev.20190524",
+    "vue-eslint-parser": "^6.0.4",
+    "vue-jest": "^3.0.4",
+    "webpack": "^4.32.2"
+  }
+}
